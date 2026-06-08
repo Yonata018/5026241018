@@ -17,22 +17,25 @@
 <nav class="navbar navbar-expand-sm bg-light navbar-light">
   <div class="container-fluid">
     <ul class="navbar-nav">
-      <li class="nav-item">
+    <li class="nav-item">
         <a class="nav-link active" href="/pegawai">Pegawai</a>
-      </li>
-     <li class="nav-item">
-        <a class="nav-link" href="#">PR 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">PR 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">PR 3</a>
-      </li>
-      <li class="nav-item">
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/mouse">Mouse</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/siswa">Siswa</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/keranjang">PR 2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/nilaikuliah">PR 3</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#">EAS</a>
-      </li>
-    </ul>
+    </li>
+</ul>
   </div>
 </nav>
 <div class="container">

@@ -8,6 +8,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\KeranjangController;
 use App\Http\Controllers\NilaiKuliahController;
+use App\Http\Controllers\MouseController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -99,3 +100,10 @@ Route::delete('/keranjang/{id}', [KeranjangController::class, 'destroy'])->name(
 Route::get('/nilaikuliah', [NilaiKuliahController::class, 'index'])->name('nilaikuliah.index');
 Route::get('/nilaikuliah/create', [NilaiKuliahController::class, 'create'])->name('nilaikuliah.create');
 Route::post('/nilaikuliah', [NilaiKuliahController::class, 'store'])->name('nilaikuliah.store');
+
+Route::get('/mouse', [MouseController::class, 'index'])->name('mouse.index');
+Route::get('/mouse/create', [MouseController::class, 'create'])->name('mouse.create');
+Route::post('/mouse', [MouseController::class, 'store'])->name('mouse.store');
+Route::get('/mouse/{id}/edit', [MouseController::class, 'edit'])->name('mouse.edit');
+Route::put('/mouse/{id}', [MouseController::class, 'update'])->name('mouse.update');
+Route::delete('/mouse/{id}', [MouseController::class, 'destroy'])->name('mouse.destroy');
